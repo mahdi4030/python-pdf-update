@@ -333,7 +333,7 @@ if __name__ == "__main__":
     if my_file.exists():
         file = open("pdf_report.salt", "r")
         contents = file.read()
-        password = "39W?dCK(}_?AuEP#".encode()
+        password = "xxx".encode()
         salt = b'0pdf1_report2_date3_keygen4_key5' # CHANGE THIS - recommend using a key from os.urandom(16), must be of type bytes
         kdf = PBKDF2HMAC(
             algorithm=hashes.SHA256(),
